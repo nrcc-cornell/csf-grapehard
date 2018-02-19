@@ -51,7 +51,7 @@ class GrapeRadioSelect extends Component {
                             disabled={!this.props.store.app.cabfrancIsAvailable}
                             checked={this.props.store.app.getGrapeVariety === 'cab_franc'} 
                             onChange={this.props.store.app.updateGrapeVariety} />
-                      <label for="cab_franc">
+                      <label htmlFor="cab_franc">
                         {this.labelCabernetFranc()}
                       </label>
                     </div>
@@ -60,7 +60,7 @@ class GrapeRadioSelect extends Component {
                             disabled={!this.props.store.app.concordIsAvailable}
                             checked={this.props.store.app.getGrapeVariety === 'concord'} 
                             onChange={this.props.store.app.updateGrapeVariety} />
-                      <label for="concord">
+                      <label htmlFor="concord">
                         {this.labelConcord()}
                       </label>
                     </div>
@@ -69,7 +69,7 @@ class GrapeRadioSelect extends Component {
                             disabled={!this.props.store.app.rieslingIsAvailable}
                             checked={this.props.store.app.getGrapeVariety === 'riesling'} 
                             onChange={this.props.store.app.updateGrapeVariety} />
-                      <label for="riesling">
+                      <label htmlFor="riesling">
                         {this.labelRiesling()}
                       </label>
                     </div>
