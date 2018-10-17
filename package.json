@@ -1,7 +1,7 @@
 {
   "name": "csf-grapehard",
-  "version": "0.2.0",
-  "homepage": "https://cicss.github.io/csf-grapehard",
+  "version": "0.3.0",
+  "homepage": "http://tools.climatesmartfarming.org/grapehard_react",
   "private": true,
   "devDependencies": {
     "custom-react-scripts": "0.2.1",

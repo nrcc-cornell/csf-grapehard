@@ -340,7 +340,8 @@ export class AppStore {
 
     @action downloadData = () => {
             if (this.getLoaderData === false) { this.updateLoaderData(true); }
-            const url = 'http://tools.climatesmartfarming.org/tstbtool/data/?lat='+this.getLat+'&lon='+this.getLon+'&year='+this.getSeason[1]
+            //const url = 'http://tools.climatesmartfarming.org/tstbtool/data/?lat='+this.getLat+'&lon='+this.getLon+'&year='+this.getSeason[1]
+            const url = 'http://tools.climatesmartfarming.org/grapehard_react/data/?lat='+this.getLat+'&lon='+this.getLon+'&year='+this.getSeason[1]
             jsonp(url, null, (err,data) => {
                 if (err) {
                     console.error(err.message);
